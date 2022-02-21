@@ -44,11 +44,13 @@ namespace SimpleApi
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "SimpleApi v1"));
             }
 
-        //    app.UseHttpsRedirection();
+            app.UseHttpsRedirection();
 
             app.UseRouting();
 
-            app.UseAuthorization();
+            ///   added on Feb 21 to test CI
+
+         //   app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
