@@ -50,7 +50,7 @@ namespace SimpleApi
 
             ///   added on Feb 21 to test CI
 
-         //   app.UseAuthorization();
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
