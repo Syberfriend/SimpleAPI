@@ -47,8 +47,7 @@ namespace SimpleApi
           //  app.UseHttpsRedirection();
 
             app.UseRouting();
-
-            ///   added on Feb 21 to test CI
+        
 
             app.UseAuthorization();
 
